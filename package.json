@@ -8,10 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "prisma:seed": "tsx prisma/seed.ts",
-    "build:worker": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
-    "preview:worker": "opennextjs-cloudflare preview",
-    "deploy:worker": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && wrangler deploy"
+    "prisma:seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",
@@ -27,7 +24,6 @@
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^1.20.6",
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.17.19",
     "@types/react": "^18.3.18",
@@ -41,7 +37,6 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "vitest": "^2.1.8",
-    "wrangler": "^4.131.2"
+    "vitest": "^2.1.8"
   }
 }
