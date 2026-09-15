@@ -55,11 +55,11 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-jakarta)", "var(--font-prompt)", "sans-serif"],
+        sans: ["var(--font-prompt)", "var(--font-jakarta)", "system-ui", "-apple-system", "sans-serif"],
         serif: ["var(--font-serif)", "Georgia", "serif"],
-        display: ["var(--font-serif)", "var(--font-jakarta)", "sans-serif"],
-        thai: ["var(--font-prompt)", "sans-serif"],
-        english: ["var(--font-jakarta)", "sans-serif"],
+        display: ["var(--font-prompt)", "var(--font-jakarta)", "system-ui", "sans-serif"],
+        thai: ["var(--font-prompt)", "var(--font-jakarta)", "system-ui", "-apple-system", "sans-serif"],
+        english: ["var(--font-jakarta)", "var(--font-prompt)", "system-ui", "-apple-system", "sans-serif"],
       },
       boxShadow: {
         "card": "0 10px 30px -10px rgba(0, 0, 0, 0.04), 0 2px 6px rgba(0, 0, 0, 0.02)",
